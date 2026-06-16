@@ -36,7 +36,7 @@ A machine learning project developed as part of a real-world case study presente
 - `data_processing.py` — Data pipeline (run this first)
 - `dashboards_hipotesis/dashboard_hip_1.py` — Streamlit dashboard
 - `dashboards_hipotesis/data_processing_copy.py` — Dashboard data pipeline
-- `data/NPS-Mexico-2026-v1.xlsx` — Survey data (not included — see note below)
+- `data/NPS-Mexico-2026-v1.xlsx` — Anonymous survey dataset
 
 ---
 
@@ -61,9 +61,3 @@ pip install pandas numpy scikit-learn imbalanced-learn plotly streamlit statsmod
 ```bash
 streamlit run dashboards_hipotesis/dashboard_hip_1.py
 ```
-
----
-
-## 📁 Data
-
-The survey dataset is not included in this repository as it contains sensitive information provided under the scope of the Santander case study. To run the project, place your own `NPS-Mexico-2026-v1.xlsx` file inside the `data/` folder following the column structure described in `data_processing.py`.
